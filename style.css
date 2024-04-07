@@ -1,0 +1,139 @@
+#hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0%;
+    right: 0%;
+    position: relative;
+}
+#outerheading{
+    line-height: 30%;
+}
+ #hero h1{
+    color: white ;
+    font-weight: bolder ;
+    font-size: 6rem;
+
+}
+h1,h2,h3,h5,h4,li,p,a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ #hero h5{
+    color: white ;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+#video1{
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    right: 0%;
+}
+/* nav */
+nav{
+    position: fixed;
+    bottom: -5%;
+    width: 100%;
+    height: 2em;
+}
+/* second section */
+#second{
+    background-color: whitesmoke;
+    text-align: center;
+}
+ p {
+    width: 30%;
+    align-self: center;
+    margin: 0% auto;
+    text-align: center;
+}
+#third{
+    margin-top: 2em;
+    text-align: center;
+
+}
+#third img{
+    margin-bottom: 2em;
+}
+#third video{
+    width: 30em;
+    height: 20em;
+}
+#fourth{
+    background-color: whitesmoke;
+    /* height: 100vh; */
+    margin-top: 2em;
+    text-align: center;
+}
+#video6{
+    width: 60em;
+}
+#fifth{
+    background-color: white;
+    margin-top: 2em;
+    text-align: center;
+}
+#end{
+    background-color: rgb(53, 53, 216);
+    height: 20em;
+    width: 100%;
+    margin-bottom: 2em;
+
+}
+#end h2{
+    font-size: 6rem;
+    color: white;
+}
+#end button{
+    background-color: white;
+    color:rgb(53, 53, 216);
+    border-radius: 60px;
+    border: none;
+    width: 7em;
+    height: 2em;
+    font-size: 2.5rem;
+}
+#end button:hover{
+    background-color: yellow;
+    
+}
+
+@media(max-width:980px){
+    img,video{
+        width: 100% ;
+        height:auto;
+    }
+    #hero h1{
+        font-size: 5rem;
+    }
+    #end h2{
+        font-size: 3rem;
+        
+    }
+    #end{
+        height: auto;
+    }
+    p{
+        width: 100%;
+    }
+    #third video{
+        width: 100vw !important;
+        height: auto;
+    }
+    third img{
+        width: 100%;
+        height: auto;
+    }
+    #outerheading{
+        line-height: 70px;
+    }
+}
